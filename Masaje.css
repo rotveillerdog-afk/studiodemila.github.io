@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+    font-family: Playfair Display, 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient( to bottom right, #ffffff, #47352b);
+    min-height: 100vh;
+    color:  #271c16;
+
+}
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: Playfair Display, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.3em;
+}
+h4 {
+    font-size: 1.1em;
+}
+
+.Logo {
+    max-width: 100%;
+    display: flex;
+    height: 100px;
+    flex-grow: 1;
+}
+.Logo img {
+    margin-left: 2%;
+    padding-left: 2%;
+    width: 100px;
+    height: 100px;
+}
+
+.Name {
+   align-self: center;
+   flex-grow: 3;
+}
+.Name h1 {
+   font-family:Playfair Display, 'Arial Narrow', Arial, sans-serif; 
+   word-spacing: 1.2rem;
+}
+.StMas {
+   align-self: flex-start;
+   flex-grow: 1;
+    padding-left: 5px;
+    overflow-wrap: break-word;
+    padding-right: 20px;
+}  
+.StMas h5 {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 0.7em;
+}
+.lang {
+    
+    display: flex;
+    margin-right: 10px;
+    padding-right: 10px;
+    flex-grow: 1;
+   
+    align-items: flex-start;
+    padding-top: 10px;
+
+
+}
+.lang select {
+    width: 35px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid #271c16;
+    color: #271c16;
+    font-size: 1em;
+    padding: 5px;
+    appearance: none;        /* Для большинства браузеров  */
+   -webkit-appearance: none;  /* Для Safari */
+    -moz-appearance: none;   /*  Для Firefox*/
+}
+.Nav-Menu ul {
+    padding-left: 0;
+}
+.Nav-button {
+    display: none;  
+    margin-right: 20px; 
+    border: none;
+    background: none;
+    margin-left: auto;
+} 
+.Nav-Menu {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.Menu {
+    justify-content: space-evenly;
+    display: flex;
+    flex: 1; /* заняло доступное пространство */
+    align-content: center; 
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+   
+}
+.Menu h3 {
+     cursor: pointer; 
+     text-decoration: none;
+    }
+.Menu h3:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+.Nav-button:hover {
+    cursor: pointer;
+
+}
+.Main-Page {
+    flex-direction: column;
+    position: relative;
+    max-width: 1230px;
+}
+.BlokVideoFon {
+    max-width: 100%;
+    height: 70%;
+    top: 170px;
+    border-radius: 0px 60%;
+    left: 0;
+    overflow: hidden; /*обрезает видео по размеру блока */
+}  
+#Video-fon {
+    object-fit: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+    z-index: 0; /* Определяет, что все  другие элементы на страницы будут поверх видео */  
+}
+.Main-Par {
+    position: absolute;
+    top: 450px;
+    right: 300px;
+    z-index: 2;
+    margin-left: 20px;
+    min-width: 300px;
+    max-width: 450px;
+    left: 20px;
+    font-size: 1.5rem;
+    font-family: Playfair Display;
+    font-style: italic;
+    word-spacing: 0.3rem;
+} 
+.Infa {
+    min-height: 100vh;
+    margin-top: 30px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.Infa-1 {
+    padding-right: 50px;
+    text-indent: 20px; /*абзац с красной строки*/
+}
+.Infa p {
+    padding-right: 70px;
+    padding-left: 10px;
+}
+.Infa img {
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(86, 82, 82);
+    float: right;
+    margin-left: 170px;
+    margin-bottom: 30px ;
+}
+.Infa-Lista {
+    width: 60%;
+}
+.VidiMassaja-Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.VidiMassaja-Container img {
+    position: absolute;
+    right: 10%;
+    top: 50%;  /* Центр по вертикали */
+    z-index: 0; /* Чтобы текст был поверх */
+    opacity: 0.5;
+    max-width: 30%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-50%) rotate(30deg);
+    pointer-events: none;
+}
+.VidiMassaja {
+    min-height: 100vh;
+    justify-content: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.VidiMassajas-block {
+    max-height: 50px; /* только заголовок */
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+.VidiMassajas-block.active {
+    max-height: 350px; /*Подменю открыто */
+    overflow: visible; 
+}
+.VMImagen-Wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: absolute;
+    z-index: 0;
+     width: 100%;
+     min-height: 100%;
+}
+
+.VMImagen-Blok {
+    display: flex;
+    width: 100%;
+     z-index: 1;
+    opacity: 0.4;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+    position: relative; /* чтобы не перекрывали текст */
+ } 
+.VMImagen-Blok2 {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    position: relative; 
+    padding-top: 0;
+}
+.VMImagen {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:center;
+    margin-right: 20px;
+}
+.VMImagen img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+.VMheader {
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.VMcontent {
+    padding: 10px;
+}
+.VMBtn {
+    width: 250px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 40%;
+    padding-top: 2px;
+}
+.VMBtn:hover {
+    transform: scale(1.2);
+    transition: tranform 0.3s ease;
+}
+.VMBtn h3 {
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.VMRef {
+    top: 50px;
+    display: flex;
+  position: relative;
+  justify-content: center;
+
+}
+.VMRef2 {
+    position: relative;
+    top: 20px;
+    margin-right: 5px;
+}
+.Sert-Container {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;/* Зазоры между элементами */
+     position: relative;
+    z-index: 0;
+}  
+.Sertificat-section {
+    flex-direction: column;
+}
+.Sert-Container div:nth-child(-n + 7) {
+    height: 250px;
+    width: 176px;
+}
+.Sert-Container div:nth-last-child(-n + 13) {
+    width: 338px;
+    height: 235px;
+}
+.Sertificat{
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* padding: 10px; */
+}
+.Sertificat {
+     transition: tranform 0.3s ease;
+     z-index: 1; 
+} 
+.Sertificat:hover {
+    transform: scale(1.3);
+    z-index: 10;
+}
+.Separator {
+    border:none;
+    height: 2px;
+    background-color: #271c16;
+
+}
+.Tarjeta {
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.Tarjeta h3 {
+    margin-bottom: -10px;
+    
+}
+.TarH {
+margin-top: 40px;
+padding-top: 20px;
+}
+.Tarjeta ul {
+ list-style-type: none;
+}
+.Tarjeta img {
+    width: 330px;
+    height: 245px;
+ right: 5px;
+ display: block;
+ margin: auto;
+}
+.TarW {
+    left: 60px;
+    margin-top: 0;
+    padding: 0;
+ }
+ .TarW h4 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+ }
+ .TarWatsap {
+    padding-left: 50%;
+    margin-top: 0px;
+ }
+.Otziv-Carousel {
+    /* margin-left: 10%; */
+    position: relative;
+    max-width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap; /* чтобы изображение не переносилось */
+}
+.Otziv-Blok {
+    display: inline-block;
+    overflow-x: auto; /* Добавляет горизонтальную полосу прокрутки только если содержимое выходит за пределы контейнера по ширине*/
+    scroll-behavior: smooth; /*плавная прокрутка */
+}
+.Otziv-Blok img {
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    flex-shrink: 0; /* Не позволит сжать этот элемент, даже если контейнер меньше по ширине */
+}
+.OtzivBtn {
+    max-width: 350px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 40%;
+    padding-top: 2px;
+}
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 30px 20px;
+    z-index: 2;
+    align-items: flex-start;
+    flex-grow: 2;
+    max-width: 100%;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+}
+.Map {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.Telef {
+    margin-left: 20px;
+    top: 0;
+}
+.Telef,
+.Map {
+    flex: 1; /* равная ширина */
+    max-width: 50%; /* чтобы они не выходили за пределы */
+    box-sizing: border-box;
+}
+.WhatsApp {
+    font-size: 1.4em;
+    margin-top: 40px;
+}
+.WhatsApp a {
+    text-decoration: none;
+    color: #271c16;
+}
+.Instagram {
+ margin-top: 50px;
+}
+.Instagram a {
+   font-size: 1.4em;
+    text-decoration: none;
+    color: #271c16;
+    margin-top: 40px;
+}
+.Instagram img {
+    width: 40px;
+    height: 40px;
+}
+ 
+.Contact p {
+    font-size: 1.5em;
+}

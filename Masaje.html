@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Masaje.css">
+    <link rel="stylesheet" href="Media.css">
+    <title>Studio de Mila</title>
+</head>
+<body>
+    <header>
+        <div class="Logo" id="Logo">
+            <img src="foto/logo.jpeg">
+            <div class="StMas">
+                <h5>Студия массажа в Валенсии</h5>
+            </div>
+            <div class="Name">
+                <h1>Studio de Mila</h1>
+            </div>
+            <div id="lang" class="lang">
+                <select>
+                    <option value="ru">Ru</option>
+                    <option value="es">Es</option>
+                </select>
+            </div>
+        </div>
+        <nav id="Nav-Menu" class="Nav-Menu">
+            <ul class="Menu">
+                <li id="BtnNachalo"><h3>Главная страница</h3></li>
+                <li id="BtnInfa"><h3>Обо мне</h3></li>
+                <li id="BtnVidiMassaja"><h3>Виды массажа</h3></li>
+                <li id="BtnSert"><h3>Мои сертификаты</h3></li>
+                <li id="BtnKontakt"> <a href="#Contact" style="text-decoration: none;"><h3 style="color: #271c16;">Контакты</h3></a></li>
+            </ul>
+            <button id="Nav-button" class="Nav-button">
+                <img id="Nav-button-img" src="foto\nav-open.svg">
+            </button>
+        </nav>
+    </header>
+    
+    <section class="Main-Page-cont">
+        <div class="Main-Page" id="Nachalo"> 
+                <div class="BlokVideoFon">
+                    <video id="Video-fon" autoplay muted loop>
+                    <source src="foto\video fon.mp4" type="video/mp4">
+                    </video>
+                    <div class="Main-Par"><p>Каждый сеанс — это возможность помочь вашему телу и состоянию прийти в баланс. Ваша обратная связь не только радует, но и даёт мне направление для профессионального роста и глубокого понимания потребностей каждого клиента.</p>
+                    </div>
+                </div>
+            
+                <span style="text-align: center; margin-top: 70px;"><h2>Услуги</h2></span>
+                <div class="VidiMassaja-Container"> 
+                    <div class="VidiMassajas-block" id="massaj1">
+                    <div class="VMheader">МАССАЖ ВСЕГО ТЕЛА</div>
+                        <div class="VMcontent">Классика, которая всегда работает: глубокое расслабление, улучшается кровоток, уходит напряжение, спина «отпускает». Подходит и как уход, и как восстановление после нагрузок.   Для меня это массаж практически каждого см и каждой мышцы. <br>
+                                                <em>Противопоказания</em>: обострение варикоза, кожные воспаления, температура.
+
+                            </div>
+                    </div>
+                    <div class="VidiMassajas-block" id="massaj2">
+                        <div class="VMheader">МАССАЖ КОНКРЕТНОЙ ЗОНЫ</div>
+                        <div class="VMcontent">Если у вас зажало, защемило, болит... В этом случае МАССАЖ КОНКРЕТНОЙ ЗОНЫ, например спины (от поясницы до шеи) или ног. Иногда это более точечная работа, например, только кисти рук или бедро.
+                            С помощью массажа снимаем напряжение, облегчаем состояние. По опыту, чтобы снять сильный дискомфорт требуется в среднем 3-5 сеансов. После 1го уже можно почувствовать облегчение.
+                        </div>
+                    </div>
+                    <div class="VidiMassajas-block" id="massaj3">
+                        <div class="VMheader">ОСТЕОПАТИЯ</div>
+                        <div class="VMcontent">Это мягкая ручная терапия, которая помогает телу «вспомнить», как быть в балансе. Снимает боли в спине, голове, животе, восстанавливает после стрессов и травм. Работает не только с симптомами, но с глубинными причинами.<br>
+                                            <em>Противопоказания</em>: острые воспаления, травмы, высокая температура, онкология в активной стадии.
+                        </div>
+                    </div>
+                    <div class="VidiMassajas-block" id="massaj4">
+                        <div class="VMheader">МАССАЖ ЛИЦА, ШЕИ И ДЕКОЛЬТЕ</div>
+                        <div class="VMcontent">Освежает, подтягивает, снимает напряжение с мышц и возвращает лицу живой цвет. Работаю и с кожей, и с глубокими мышцами.<br>
+                                                <em>Противопоказания</em>: воспаления, высыпания, герпес.
+
+                        </div>
+                    </div>
+                    <div class="VidiMassajas-block" id="massaj5">
+                        <div class="VMheader">МАССАЖ ГОЛОВЫ, ПРОФИЛАКТИКА МИГРЕНИ</div>
+                        <div class="VMcontent">Снимаю напряжение с головы, улучшаю кровоток и работу нервной системы. Помогает при хронических головных болях и «перегрузе».
+                                                    <em>Противопоказания</em>: гипертонический криз, острые воспаления.
+                        </div>
+                    </div>
+                    <div class="VMBtn" id="VidiMassajasBlock2"><h3>Смотреть больше &nbsp;&nbsp;&nbsp; &rarr;</h3></div>
+                    <div class="VMRef"><h3><em>Не знаете, какой массаж выбрать?</em></h3>
+                        <h3 class="VMRef2">Пишите в &nbsp; <a style="color: #271c16;" href="whatsapp://send?phone=+34651 13 37 26">WhatsApp</a></h3>
+                    
+                    </div class="Separator">
+                    <img src="foto\Image 15.36.45.jpeg">
+
+                </div>
+                <div class="Tarjeta">
+                    <hr>
+                    <span><h3><em>Хочешь сделать подарок, но не знаешь, что подарить?</em></h3><br> <p style="padding-left: 10%;">Подарки не всегда должны быть вещами.</p>
+                                <p style="padding-left: 15%;">Подари близким здоровье, расслабление и заботу о теле.</p>
+                                <p style="padding-left: 20%;">Подарочный сертификат — забота, которую точно оценят.</p>
+                    </span>
+                    <span class="TarH"><h4>Сертификат на массаж от Studio de Mila — это:</h4>
+                        <ul>
+                            <li>✔ ценный отдых от стресса</li>
+                            <li>✔ глубокое расслабление и перезагрузка</li>
+                            <li>✔ внимание к телу и внутреннему состоянию</li>
+                        </ul>
+                    </span>
+                        <img src="foto/Tarjeta.jpeg">
+                        <div class="TarW"><h4>Сделай подарок с пользой — обратись за сертификатом прямо сейчас!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                        <h4 class="TarWatsap">Пишите в &nbsp <a style="color: #271c16;" href="whatsapp://send?phone=+34651 13 37 26">WhatsApp</a></h4></div>
+
+                </div>
+
+                    <span style="text-align: center; margin-top: 50px;"><h2>Отзывы</h2></span>
+
+            <div class="Otziv-Carousel">
+                    <a class="Flecha-left"></a> <!--благодаря этим двум якорным ссылкам работает скролл браузера -->
+                    <div class="Otziv-Blok">
+                        <img src="foto/6012753712897967576.jpg" alt="Image">
+                        <img src="foto/6012753712897967577.jpg" alt="Image">
+                        <img src="foto/6012753712897967578.jpg" alt="Image">
+                        <img src="foto/6012753712897967579.jpg" alt="Image">
+                        <img src="foto/Otziv1.jpeg" alt="Image">
+                        <img src="foto/Otziv2.jpeg" alt="Image">
+                        <img src="foto/Otziv3.jpeg" alt="Image">
+                    </div>
+                    <a class="Flecha-right"></a>
+                    
+            </div>
+            <div class="OtzivBtn" id=""><h4>Смотреть больше в &nbsp;&nbsp;&nbsp; <a href="https://www.instagram.com/masaje_vlc/" style="color: #271c16;">Instagram</a></h4>
+            </div>
+
+            <div style="margin-top: 100px;"><span style="text-align: center;"><h2>Адрес</h2></span>
+
+                <div class="Contact" id="Contact"> 
+                     <div class="Map">
+                        <p>San Carlos 9, bajo, 46920 Mislata, Valencia</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d769.9524810849197!2d-0.41611525943062205!3d39.47362257049488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f9ceef645bf%3A0x228889b2d542c87f!2sC.%20San%20Carlos%2C%209%2C%2046920%20Mislata%2C%20Valencia!5e0!3m2!1sru!2ses!4v1751993690159!5m2!1sru!2ses" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> 
+                    
+                    <div class="Telef"> 
+                        <h4>Остались вопросы или хочешь записаться на массаж, пиши</h4>
+                        <div class="Instagram"><a href="https://www.instagram.com/masaje_vlc/"><img src="foto/instagram-logo.png"></a>
+                        <a  href="https://www.instagram.com/masaje_vlc/">&nbsp; &nbsp; В Instagram</a></div>
+                        <div class="WhatsApp"><a href="whatsapp://send?phone=+34651 13 37 26">WhatsApp:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 651 13 37 26 </a></div>
+                    </div>
+                   
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <section class="VidiMassaja" id="VidiMassaja">
+        <div class="VMImagen-Wrap">
+                <div class="VMImagen-Blok">
+                        <div class="VMImagen" style="background-image: url('foto/Massaje Cara.jpg');"></div>
+                        <div class="VMImagen" style="background-image: url('foto/Massaje Pie.jpg'); margin-top: 85px;"></div>
+                        <div class="VMImagen" style="background-image: url('foto/Massaje.jpg'); margin-top: 170px;"></div>
+                        <div class="VMImagen" style="background-image: url('foto/Massaje espalda.jpg'); margin-top: 250px;"></div>
+                </div>
+                <div class="VMImagen-Blok2">
+                        <div class="VMImagen" style="background-image: url('foto/Massaje4.jpg'); margin-top: 10px ;"></div>
+                        <div class="VMImagen" style="background-image: url('foto/6012753712897967697_y.jpg'); margin-top: 85px;"></div>
+                        <div class="VMImagen" style="background-image: url('foto/Massaje Cara2.jpg'); margin-top: 170px;"></div>
+                        <div class="VMImagen" style="background-image: url('foto/Massaje2.jpg'); margin-top: 250px;"></div>
+                    
+                </div>
+        </div>      
+                <div class="VidiMassajas-block" id="massaj6">
+                        <div class="VMheader">МАССАЖ ВСЕГО ТЕЛА</div>
+                        <div class="VMcontent">Классика, которая всегда работает: глубокое расслабление, улучшается кровоток, уходит напряжение, спина «отпускает». Подходит и как уход, и как восстановление после нагрузок.   Для меня это массаж практически каждого см и каждой мышцы. <br>
+                                                <em>Противопоказания</em>: обострение варикоза, кожные воспаления, температура.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj7">
+                        <div class="VMheader">МАССАЖ КОНКРЕТНОЙ ЗОНЫ</div>
+                        <div class="VMcontent">Если у вас зажало, защемило, болит... В этом случае МАССАЖ КОНКРЕТНОЙ ЗОНЫ, например спины (от поясницы до шеи) или ног. Иногда это более точечная работа, например, только кисти рук или бедро.
+                            С помощью массажа снимаем напряжение, облегчаем состояние. По опыту, чтобы снять сильный дискомфорт требуется в среднем 3-5 сеансов. После 1го уже можно почувствовать облегчение.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj8">
+                        <div class="VMheader">ЛИМФАТИЧЕСКИЙ И ЛИМФОДРЕНАЖНЫЙ МАССАЖ</div>
+                        <div class="VMcontent">  Очень мягкий, почти убаюкивающий массаж, который помогает телу избавиться от лишней жидкости и токсинов. Особенно полезен при отёках, вялости и тяжести в теле. <br>
+                            Мне часто пишут с просьбой сделать антицеллюлитный массаж. И часто у каждого своё понимание как он проводится и ожидаемый результат. <br>
+                                Скажу, чего я не делаю:<br>-Не разбиваю "шарики",<br>-Не делаю только одну зону, например ноги. <br> -Не делаю спортивный жёсткий массаж.<br>
+                                Если раздавить, то что называют "шарики под кожей", что будет?<br>
+                                Здесь скопление лимфатической жидкости, а значит токсины, бактерии и прочие не отработанные вещества. 
+                                При раздавливании этакого шарика вся эта грязь пойдёт гулять по телу и неизвестно где осядет и что вызовет.
+                                Работаю сначала с лимфоузлами, далее с лимфой, а уже после с фасцией, мышцей, связками ...<br>
+                                Да, согласна это более длительный процесс, чем разбить, но это вклад в ваше здоровье. Это про любовь к себе.<br>
+                                <em>Противопоказания</em>: инфекции, лимфаденит, тромбы.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj9">
+                        <div class="VMheader">КИНЕЗИОМАССАЖ И СПМ.</div>
+                        <div class="VMcontent"> Техника, с помощью которой я "разговариваю" с телом через мышцы. Помогает найти, где скрыт корень дискомфорта — от усталости до эмоций — и мягко его убрать. Эффективна при хроническом стрессе, непонятных болях и слабости. <br>
+                                                Чтобы иметь красивые ягодицы ходят в тренажерку, но не всегда получается добиться хорошего результата. Что потом? Ой, уже и с тренером и без тренера, и уже закачала и ничего, пойду делать импланты.
+                                                Хм..  если мышца не работает, то вы хоть по целому дню качайте, - будет бесполезно. А нерабочая мышца будет продолжать быть таковой и после установки импланта (a ещё и выпадет из него).
+                                                Поэтому в курс по коррекции фигуры я включаю кинезиологический массаж. При работе, путем тестирования, буду искать не работающую мышцу и включать ее в работу, убирать тригеры, использовать кинезиотейпы и давать упражнения конкретно для этого. <br>
+                                                <em>Противопоказания</em>: острые психические состояния, инфекции.       
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj10">
+                        <div class="VMheader">ОСТЕОПАТИЯ</div>
+                        <div class="VMcontent">Это мягкая ручная терапия, которая помогает телу «вспомнить», как быть в балансе. Снимает боли в спине, голове, животе, восстанавливает после стрессов и травм. Работает не только с симптомами, но с глубинными причинами.<br>
+                                            <em>Противопоказания</em>: острые воспаления, травмы, высокая температура, онкология в активной стадии.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj11">
+                        <div class="VMheader">МОДЕЛИРУЮЩИЙ МАССАЖ ЛИЦА И ТЕЛА</div>
+                        <div class="VMcontent">Активная техника, направленная на улучшение тонуса кожи, уменьшение отёков и проработку проблемных зон. Это не про боль, а про результат и заботу о себе.<br>
+                                            <em>Противопоказания</em>: беременность, варикоз в активной фазе, онкология.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj12">
+                        <div class="VMheader">МАССАЖ ЛИЦА, ШЕИ И ДЕКОЛЬТЕ</div>
+                        <div class="VMcontent">Освежает, подтягивает, снимает напряжение с мышц и возвращает лицу живой цвет. Работаю и с кожей, и с глубокими мышцами.<br>
+                                                <em>Противопоказания</em>: воспаления, высыпания, герпес.
+
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj13">
+                        <div class="VMheader">РЕФЛЕКСОТЕРАПИЯ СТОП</div>
+                        <div class="VMcontent">Прорабатываю важные точки на стопах, которые связаны с внутренними органами. Это расслабляет, улучшает самочувствие и запускает восстановление.<br>
+                                                <em>Противопоказания</em>: грибок, трещины, высокая температура.
+
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj14">
+                        <div class="VMheader">ВИСЦЕРАЛЬНЫЙ МАССАЖ</div>
+                        <div class="VMcontent">Ну, и куда без ВИСЦЕРАЛЬНОГО МАССАЖА. В нашей стрессовой жизни очень часто жалуются на запоры. Здесь остеопатическая работа в помощь.
+                            Никакие морщины, складки на теле, ассиметрии и другие "прелести" не появляются просто так. И это портит фигуру и лицо. В курс по коррекции тела и лица,  я объединяю знания, как минимум, из пяти объемных курсов.</div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj15">
+                        <div class="VMheader">РАБОТА СО ШВАМИ ПОСЛЕ ОПЕРАЦИИ </div>
+                        <div class="VMcontent">Даже заживший шов может стягивать ткани и влиять на самочувствие. Аккуратно и безопасно помогаю вернуть подвижность и мягкость в зону рубца.
+                            Прорабатывая швы, можно поднять животик, улучшить крово- и лимфо- ток, а значит дать жизнь окружающим тканям. И что не мало важно, работая со швом можно сделать его менее заметным.<br>
+                            Такой массаж занимает 1,5ч. Частота и длительность для каждого своя.
+                            <em>Противопоказания</em>: незажившие швы, воспаление, боль.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj16">
+                        <div class="VMheader">ЛИЦО. ГОЛОВА</div>
+                        <div class="VMcontent">Лимфодренаж, буккальный, баночный, гуаша, скульптурный, тейпирование, остеопатическая  работа с костями, мембранами и швами черепа, работа с апоневрозом головы (а массаж головы это отдельная песня).
+                        Лицо желательно проработать с телом, а если есть ассиметрии, то обязательно. У каждого на лице свои морщинки или дефекты, поэтому курс массажа индивидуален. Программа для каждого будет своя.<br>
+                        В среднем каждый сеанс не менее 1ч, 1раз в неделю.</div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj17">
+                        <div class="VMheader">РАБОТА СО ШВАМИ ЧЕРЕПА</div>
+                        <div class="VMcontent">Очень деликатная остеопатическая техника для восстановления после травм, операций, тяжёлых родов. Помогает при головных болях, напряжении, шуме в ушах.
+                                            <em>Противопоказания</em>: свежая черепно-мозговая травма, внутричерепное давление.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj18">
+                        <div class="VMheader">МАССАЖ БАНКАМИ И ГУАША</div>
+                        <div class="VMcontent">Использую вакуум и скребки, чтобы улучшить циркуляцию, снять застой и проработать отёки и боль. Подходит и для тела, и для лица.
+                                                <em>Противопоказания</em>: тонкая кожа, сосудистая сетка, тромбы.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj19">
+                        <div class="VMheader">МАССАЖ ГОЛОВЫ, ПРОФИЛАКТИКА МИГРЕНИ</div>
+                        <div class="VMcontent">Снимаю напряжение с головы, улучшаю кровоток и работу нервной системы. Помогает при хронических головных болях и «перегрузе».
+                                                    <em>Противопоказания</em>: гипертонический криз, острые воспаления.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj20">
+                        <div class="VMheader">КИНЕЗИОТЕЙПИРОВАНИЕ</div>
+                        <div class="VMcontent">Цветные ленты на теле — не просто украшение. Они поддерживают мышцы и суставы, уменьшают отёки и боль. Часто дополняют основную терапию.
+                                                <em>Противопоказания</em>: аллергия на клей, раздражения кожи.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj21">
+                        <div class="VMheader">БУККАЛЬНЫЙ МАССАЖ (РАБОТА С ЧЕЛЮСТЬЮ)</div>
+                        <div class="VMcontent">Глубокая проработка лица снаружи и изнутри (через рот в перчатках). Улучшает форму лица, убирает спазмы, помогает при бруксизме и зажимах.
+                                                <em>Противопоказания</em>: стоматологические воспаления, герпес, зубная боль.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj22">
+                        <div class="VMheader">РАБОТА С ДЫХАНИЕМ И ДИАФРАГМОЙ</div>
+                        <div class="VMcontent">Когда дыхание свободное, тело живёт легче. Помогаю восстановить дыхание, снять тревожность, улучшить работу органов и голос.
+                                                <em>Противопоказания</em>: острые приступы астмы, бронхит.
+                        </div>
+                </div>
+                <div class="VidiMassajas-block" id="massaj23">
+                    <div class="VMheader">ТЕРАПИЕЙ IASTM</div>
+                    <div class="VMcontent">Работаю специальными инструментами по фасциям — это плёнки, которые держат всё в теле. Метод быстро снимает спазмы и «залипшие» участки.
+                                            <em>Противопоказания</em>: тромбы, острые травмы, онкология.
+
+                    </div>
+                </div>
+    </section>
+    <section class="Infa" id="Infa">
+                <div class="Infa-1">
+                     <img src="foto\Image 2025-06-26 at 12.49.27.jpeg" alt="Foto">
+                    <p>Меня зовут Мила, я специалист с более чем 15-летним опытом в сфере здоровья и благополучия.</p> <p> Уже более 6 лет я практикую массаж, телесные и остеопатические методики, помогая клиентам восстановить баланс, снять напряжение и вернуть себе ощущение лёгкости в теле.</p>
+                    <p>В своей работе я придерживаюсь индивидуального подхода. Нет универсальных решений — есть вы, ваша история и ваше тело, которое всегда говорит. Моя задача — услышать его и найти наиболее эффективный способ помочь.</p>
+                    <p>Я прошла более 35 обучающих программ: от классического и глубинного массажа до остеопатии, прикладной кинезиологии, психосоматики и телесно-ориентированных практик. Постоянно повышаю квалификацию, изучаю современные подходы, участвую в профессиональных тренингах и вебинарах.</p>
+                    <p>Каждая сессия — это не просто процедура, а внимательное, бережное сопровождение на пути к вашему физическому и эмоциональному благополучию.</p>
+                </div>
+                <div class="Infa-Lista">
+                    <h3>Как проходит мой приём:</h3>
+                    <ol>
+                        <li>Знакомство и внимательное выслушивание <br> <p>Вы рассказываете, что беспокоит, какие есть пожелания и цели. Я внимательно слушаю, чтобы понять, как помочь именно вам.</p></li>
+                        <li>Осмотр и короткий опрос <br><p>Провожу визуальный осмотр и задаю важные вопросы о вашем здоровье, чтобы исключить противопоказания и выбрать наилучший подход.</p></li>
+                        <li>Объясняю, как пройдёт сеанс <br><p>Рассказываю, какие техники буду использовать и почему. Всё прозрачно и понятно — вы в курсе каждого этапа.</p></li>
+                        <li>Сеанс <br><p>Работаю мягко и глубоко, с уважением к телу. По желанию во время или после сеанса делюсь наблюдениями о напряжениях и особенностях вашего состояния.</p></li>
+                        <li>Рекомендации после сеанса <br><p>Вы получите советы, как сохранить и усилить эффект — от простых привычек до поддержки между приёмами.</p></li>
+
+                    </ol>
+
+                </div>
+                    
+    </section>
+    <section class="Sertificat-section" id="Sert">
+        <h3 class="Section-title" style="text-align: center; margin-top: 50px; font-family: Playfair Display; font-size: 2em;">Мои сертификаты</h3>
+        <div class="Sert-Container">
+            <div class="Sertificat" style="background-image: url('foto/Image 9.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 8.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 12.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 14.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 11.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 10.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 23.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 1.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 2.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 3.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 16.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 17.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 18.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 19.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 20.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 21.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 6.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 15.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 22.jpeg');"></div>
+            <div class="Sertificat" style="background-image: url('foto/Image 4.jpeg');"></div>
+        </div>
+    </section>
+
+       
+    
+    <script src="Masaje.js"></script>
+</body>
+</html>

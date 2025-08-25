@@ -1,0 +1,352 @@
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .Menu {
+        display: none;
+    }
+    .Logo {
+        position: relative;
+    }
+    .StMas {
+        position: absolute;
+        padding-left: 130px;
+    }
+    .StMas {
+        padding-right: 0px;
+    }
+    .StMas h5 {
+    font-size: 0.6em;
+    }
+    .Name {
+        text-align: center;
+        vertical-align: bottom;
+
+    }
+    .Name h1 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .Nav-Menu.open .Menu {
+        display: block;
+        position: fixed;
+        top: 0;
+		bottom: 0;
+		width: 40%;
+        height: 70%;
+		right: 0;
+        background-color: #fff;
+        z-index: 1;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        z-index: 3;
+    }
+    .Nav-Menu.open .Menu h3 {
+        transform: none;
+        transition: none;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2; /*регулирует плотность */
+    }
+    .Nav-Menu.open .Menu li {
+    margin: 0;
+    padding: 0;
+}
+    .Nav-button {
+        display: block;
+        position: fixed;
+        z-index: 3;
+        right: 30px;
+        top: 20px;
+    }
+    .Main-Page-cont {
+        margin-top: 20px;
+    }
+    .lang {
+        align-self: flex-start;
+    }
+    .Sert-Container div:nth-child(-n + 7) {
+    height: 250px;
+    width: 176px;
+    }
+    .Sert-Container div:nth-last-child(-n + 13) {
+    width: 338px;
+    height: 235px;
+    }
+    .Infa {
+        margin-top: 40px;
+    }
+    .Infa img {
+    width: 240px;
+    height: 240px;
+    margin-left: 80px;
+
+    }
+
+} 
+
+@media (max-width: 768px) { /* Адаптация при уменьшении экрана */
+    .VidiMassaja-Container img {
+        right: 50%;
+        transform: translate(90%, -80%) scale(0.8) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+    }
+    h1 {
+        font-size: 2.6rem;
+    }
+    h5 {
+        font-size: 0.7em;
+    }
+    .Logo img {
+        padding-left: 0px;
+    }
+    .Nav-button {
+        margin-right: 5px;
+        right: 15px;
+    }
+    .Main-Par {
+        font-size: 1.4em;
+    }
+     .StMas  {
+    font-size: 0.5em;
+    }
+    
+    .VMBtn {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .VidiMassajas-block {
+        margin-bottom: 0;
+    }
+    .VMRef {
+        top: 20px;
+    }
+    .Tarjeta {
+        margin-top: 100px;
+    }
+    .Map iframe {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .sert-card {
+        width: 140px;
+        height: 200px;
+    }
+    .Infa img {
+      max-width: 200px;
+      max-height: 200px;
+    }
+    .Infa-Lista {
+     width: 100%;
+    }
+    .Infa img {
+    margin-left: 50px;
+    }
+}
+@media (max-width: 650px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    .Logo img {
+        width: 70px;
+        height: 70px;
+        padding-left: 0px;
+    }
+    .StMas {
+ 
+    padding-right: 0px;
+} 
+  .VidiMassaja-Container img {
+    transform: translate(120%, -100%) scale(0.9) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+    }
+    .Infa img {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    }
+    .Infa-1 {
+        padding-right: 0px;
+    }
+    .Name {
+   text-align: left;
+  }
+  .lang {
+     padding-right: 0;
+     min-width: 75px;
+  }
+  .lang select {
+   text-align: end;
+    margin-right: 0px;
+   
+  }
+    .Nav-button {
+    right: 5px;
+    padding: 0;
+    }
+    .Tarjeta {
+    margin-left: 20px;
+}
+.Tarjeta img {
+    max-width: 70%;
+    height: auto;
+}
+    .TarW {
+        left: 0px;
+    }
+ .TarWatsap {
+    padding-left: 50%;
+   
+ }
+
+    .Otziv-Blok img {
+    width: 300px;
+    height: 250px;
+}
+ .Contact {
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .Telef, .Map {
+    flex-grow: 1;
+    justify-content: center;
+    max-width: 100%;
+  }
+    .Map iframe {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    }   
+    .Instagram {
+ margin-top: 10px;
+}
+.WhatsApp {
+    margin-top: 10px;
+}
+.Instagram img {
+    width: 30px;
+    height: 30px;
+}
+ 
+
+    
+}
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    
+    .Logo {
+        position: relative;
+    }
+    .StMas {
+        position: absolute;
+        padding-left: 80px;
+    }
+    .Name {
+        text-align: end;
+    }
+    /* .lang {
+        justify-content: flex-end;
+    } */
+    .Nav-button {
+        margin-right: 0;
+    }
+    .BlokVideoFon {
+    height: 600px;
+        }  
+    .Main-Par {
+       
+        font-size: 1rem;
+        width: 40%;
+       
+        overflow: hidden;
+        height: 200px;
+    }
+     .VidiMassaja-Container img {
+        right: 50%;
+        transform: translate(120%, -100%) scale(0.9) rotate(30deg) ; /* Смещаем в центр и чуть уменьшаем */
+    }
+
+      .Contact {
+        flex-direction: column;
+    }
+
+    .Telef, .Map {
+        max-width: 100%;
+    }
+    .Infa img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+  
+     .Nav-button {
+        margin-right: 10px;
+    }
+    .Map {
+    width: 350px;
+    height: 300px;
+  
+}
+}
+
+
+@media (max-width: 420px) {
+    body {
+        min-width: 100vw;
+    }
+     .Infa img {
+      max-width: 100px;
+      max-height: 100px;
+    }
+    .Main-Par {
+        width: 200px;
+        height: auto;
+        margin-left: 10px;
+    }
+    .Main-Par p {
+        width: 200px;
+    }
+    .VMRef {
+        display: block;
+        flex-direction: column;
+    }
+    .Otziv-Blok img {
+    width: 250px;
+    height: 200px;
+    
+}
+.VMBtn {
+    margin-left: 20px;
+}
+.Otziv-Carousel {
+  
+   max-width: 300px;
+   justify-content: center;
+   margin: auto;
+}
+        .Otziv-Blok {
+    width: 280px;
+    height: 200px;
+    justify-content: center;
+}
+.OtzivBtn {
+margin: auto;
+}
+.Infa img {
+     width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    }
+}
